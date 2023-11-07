@@ -22,9 +22,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     /*
     *  Função responsável pelo clique do button certo.
+    * || R.id.buttonCalculate
     */
     override fun onClick(view: View) {
-        if (view.id == R.id.button_calculate) {
+        if (view.id == binding.buttonCalculate.id ) {
             buttonCalculate()
         }
     }
